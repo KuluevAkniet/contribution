@@ -1,0 +1,59 @@
+.container{
+    max-width:1920px;
+    margin:0 auto;
+    padding:50px;
+}
+
+.calendar{
+    display:grid;
+    grid-template-columns: repeat(50,20px);
+    grid-template-rows:repeat(7,20px);
+    grid-gap:10px;
+    justify-content:center;
+}
+
+.mounth{
+    display: flex;
+    justify-content: center;
+    grid-column-gap:3.8%;
+    font-size:20px;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    column-gap:25px;
+}
+
+.days{
+    display: flex;
+    flex-direction:column;
+}
+
+.m{
+    color:gray;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.d{
+    color:gray;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.cell{
+    background:#C0C0C0;
+}
+
+.low-contributions{
+   background:#77b4db;
+}
+
+.medium-contributions{
+    background:#009dda;
+}
+
+.high-contributions{
+    background:#215b77;
+}
